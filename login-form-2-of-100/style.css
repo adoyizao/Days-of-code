@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(244, 204, 156, 1);
+    background-image: url(images/small-alexander-andrews-anUOLC3zMD4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrap{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 75vh;
+    height: 75vh;
+    margin: auto;
+    border-radius: 2.5%;
+
+    display: flex;
+    align-items: center;
+}
+
+.loginBox {
+    background-color: rgba(102,102,102,.75);
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    backdrop-filter: blur(2px);
+}
+
+.loginBox h2 {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(244, 204, 156, 0.75);
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.register-button {
+    scale: 1.75;
+}
+
+.input-box {
+    scale: 1.2;
+}
+
+.input-box input {
+    padding: 4px;
+    width: 50%;
+}
