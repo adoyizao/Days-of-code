@@ -1,0 +1,59 @@
+/* color pallette for this project
+Umber	#635147
+Sienna	#882d17
+Ochre	#cc7722
+Brown	#a52a2a */
+
+body {
+    background-color: #cc7722;
+    width: 90%;
+    height: 90vh;
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #faebd7;
+    font-size: 1.25rem;
+    margin-bottom: 1.3rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.sidebar{
+    background-color: #635147;
+    margin: auto;
+    width: 35%;
+    float: left;
+    text-align: center;
+    color: #faebd7;
+    padding: 5px;
+    max-width: 300px;
+}
+
+.sidebar h2{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+.content{
+    color: #faebd7;
+    margin: auto;
+    width: 50%;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
