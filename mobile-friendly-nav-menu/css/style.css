@@ -6,14 +6,13 @@ Brown	#a52a2a */
 
 body {
     background-color: #cc7722;
-    width: 90%;
+    width: 100%;
     height: 90vh;
-    /* overflow-y: hidden; */
-    /* overflow-x: hidden; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
 }
 
-a{
+.sidebar a{
     display: block;
     font-weight: bold;
     text-decoration: none;
@@ -35,6 +34,7 @@ a:hover{
     color: #faebd7;
     padding: 5px;
     max-width: 300px;
+    box-shadow: 5px 5px 5px 2px #000;
 }
 
 .sidebar h2{
@@ -49,6 +49,8 @@ a:hover{
     float: right;
     text-transform: uppercase;
     font-weight: 900;
+    text-shadow: 2px 2px #000;
+
 }
 
 .container{
@@ -57,3 +59,58 @@ a:hover{
     margin: auto;
 }
 
+/* i wanted to have the picture on the header act as a link and remain in the corner, while having the other navigation links evenly spread across the rest of the header. But i dont quite know how to achieve that yet, so I'll just come back to this project at a later point in the future when i realize how to do just that */
+
+header{
+    background-color: #635147;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 5px 2px #000;
+    /* display: inline-flex;
+    margin: auto;
+    justify-content: center space-between; */
+}
+
+header a{
+    display: inline-flex;
+    /* margin: auto; */
+}
+
+.headerlink{
+    font-weight: bold;
+    text-decoration: none;
+    color: #faebd7;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.headerimg{
+    height: 50px;
+    vertical-align: middle;
+}
+
+footer{
+    background-color: #635147;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 0 5px 2px #000;
+    text-align: center;
+    line-height: 1;
+}
+
+footer p {
+    margin: 0;
+}
+
+.top-row{
+    font-size: 2rem;
+}
+.middle-row{
+    font-size: 2.5rem;
+}
+.last-row{
+    font-size: 3rem;
+}
+.content p{
+    margin: 1rem 0;
+}
